@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+.form-group {
+     margin-bottom: 0px!important;
+}
+button{
+	    margin: 20px 125px!important;
+	    border-radius: 25px!important;
+}
+.container{
+	   
+}
+input[type=text], input[type=password]{
+    width: 340px!important;
+}
+h4{
+	background-color:#117a8b!important;
+	color:white!important;
+	text-align: center;
+	width: 425px;
+	padding: 10px;
+}
+.icon{
+	    background: #117a8b!important;
+}
+button {
+    background-color: #117d8b!important;
+}
+.col-md-9{
+    margin-top: -7px!important;
+}
+.bgbody{
+	    background-color: rgba(0,0,0,0.4)!important;
+}

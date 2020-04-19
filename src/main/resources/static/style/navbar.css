@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+body, html {
+  height: 100%;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-image: url("/resources/static/images/slider3.jpg");
+  min-height: 106%;
+  margin:0px 0px;
+  padding:0px 20px;
+  z-index:-1;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+nav a{
+    padding: 7px 15px!important;
+    }
+    
+    
+    
+    #header {
+  background-color: #f1f1f1;
+  padding: 10px 15px;
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+ 
+  top: 0;
+  width: 100%;
+  transition: 0.2s;
+  height:10%;
+}
+
+ nav a{
+ font-size:20px;
+ padding:0px 80px;
+ margin:0px 0px;
+ text-decoration:none!important;
+
+ 
+ }
+  .fixed-header{
+        width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 10px 20px;
+        color: #fff;
+        overflow: hidden;
+            z-index: 1;
+    }
+     .fixed-header a:hover {
+  background: #ddd;
+  color: black;
+}
+    .fixed-footer{
+     width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 20px 0;
+        color: #fff;
+   
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }    
+    /* Some more styles to beutify this example */
+    nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+    .signup{
+float:right;
+}
+ .login {
+float: right;
+   
+}
+.container{
+    padding-right: 0px!important; 
+    padding-left: 0px!important;
+        margin-right: 0px!important; 
+    margin-left: 0px!important;
+}
